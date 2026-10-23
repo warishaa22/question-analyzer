@@ -10,7 +10,7 @@ from google import genai
 from google.genai import types
 from pydantic import BaseModel, Field, ValidationError
 
-DEFAULT_MODEL = "gemini-3.4-flash"
+DEFAULT_MODEL = "gemini-3.5-flash"
 MAX_QUESTION_CHARS = 4000
 
 STYLES = {
